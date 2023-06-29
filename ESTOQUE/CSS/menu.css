@@ -1,0 +1,143 @@
+.container {
+    background: linear-gradient(#2d3e5c, #53709e);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100%;
+    min-width: 100%;
+    background: linear-gradient(#2d3e5c, #53709e);
+}
+
+.title-container {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h1 {
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.elemento1{
+    width: 200px;
+    height: 200px;
+
+    background-color: #cccccc;
+    background-image: url("../IMAGENS/ICONE-ESTOQUE.png");
+    border: 2px solid black;
+    position: absolute;
+    left: 15%;
+    border-radius: 10px;
+}
+
+.elemento2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 35%;
+    
+    background-color: #cccccc;
+    background-image: url("../IMAGENS/ICONE-CHAVES.png");
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.elemento3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 15%;
+    top: 700px;
+    
+    background-color: #cccccc;
+    background-image: url("../IMAGENS/ICONE-ESTOQUE-SAIDA.png");
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.elemento4{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 35%;
+    top: 425px;
+    background-color: #cccccc;
+    background-image: url("../IMAGENS/ICONE-EMPRESTIMO.png");
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.elemento5{
+    width: 200px;
+    height: 200px;
+    
+    background-color: #cccccc;
+    background-image: url("../IMAGENS/ICONE-ESTOQUE-ENTRADA.png");
+    border: 2px solid black;
+    position: absolute;
+    left: 15%;
+    top: 425px;
+    border-radius: 10px;
+}
+
+.elemento6{
+    width: 200px;
+    height: 200px;
+    
+    background-color: #cccccc;
+    background-image: url("../IMAGENS/ICONE-RELATORIO.png");
+    border: 2px solid black;
+    position: absolute;
+    right: 35%;
+    top: 700px;
+    border-radius: 10px;
+}
+
+.botao1{
+    width: 330px;
+    height: 70px;
+    
+    background-color: rgb(104, 171, 233);
+    border: 3px solid black;
+    border-radius: 10px;
+    position: absolute;
+    left: 130%;
+    top: 60px;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    text-decoration-line: none;
+    transition: background-color 0.3s;
+}

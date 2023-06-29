@@ -1,0 +1,27 @@
+.box-user .select {
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: 0;
+    background-color: #172031;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select:focus ~ label,
+select:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #08979e;
+    font-size: 12px;
+}
